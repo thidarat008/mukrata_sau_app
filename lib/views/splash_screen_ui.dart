@@ -44,7 +44,7 @@ class _SplashScreenUIState extends State<SplashScreenUI> {
               height: MediaQuery.of(context).size.height * 0.02,
             ),
             CircularProgressIndicator(
-              color: Colors.amber,
+              color: Color.fromARGB(255, 148, 121, 102),
             ),
             SizedBox(
               height: MediaQuery.of(context).size.height * 0.02,
@@ -53,7 +53,7 @@ class _SplashScreenUIState extends State<SplashScreenUI> {
               'Tech SAU BUFFET',
               style: TextStyle(
                 fontSize: MediaQuery.of(context).size.height *0.03,
-                color: Colors.amber,
+                color: const Color.fromARGB(255, 255, 255, 255),
                 fontWeight: FontWeight.bold,
               ),
             ),
@@ -61,7 +61,7 @@ class _SplashScreenUIState extends State<SplashScreenUI> {
               'Copyright 2024 by NinniN',
               style: TextStyle(
                 fontSize: MediaQuery.of(context).size.height * 0.015,
-                color: Colors.amber
+                color: const Color.fromARGB(255, 255, 255, 255)
               ),
             ),
           ],

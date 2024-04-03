@@ -10,6 +10,8 @@ class CalculatePayBillUI extends StatefulWidget {
 class _CalculatePayBillUIState extends State<CalculatePayBillUI> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: Color.fromARGB(255, 146, 116, 94),
+    );
   }
 }
